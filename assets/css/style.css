@@ -26,7 +26,9 @@
     background-color: #525252;
 }
 
-
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
 
 /*--Heading--*/
 
@@ -151,11 +153,19 @@ h1, h2, h3, h4 {
     float: none;
 }
 
-.section-heading {
+.section-heading,
+.history-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+/*--work history--*/
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
 }
 
 /*--three reasons--*/
